@@ -45,7 +45,6 @@ $pages = array(
 	'/' => array('file' => 'home', 'text' => 'HOME'),
 	'aboutus' => array('file' => 'aboutus', 'text' => 'ABOUT US'),
 	'gallery' => array('file' => 'gallery', 'text' => 'GALLERY'),
-    '/2' => array('file' => 'home', 'text' => '<img src="./images/logo2.png" alt="HOME" style="padding: 0px;">'),
     'galleryup' => array('file' => 'galleryup', 'text' => 'IMAGE UPLOAD'),
     'contact' => array('file' => 'contact', 'text' => 'CONTACT'),
     'process' => array('file' => 'process', 'text' => 'PROCESS')

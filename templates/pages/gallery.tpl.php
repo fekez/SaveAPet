@@ -4,7 +4,7 @@
         foreach($images as $file => $date)  { ?>
             <div class="image" style="display: inline-block; padding:10px;">
                 <a target="_blank" href="<?php echo $FOLDER.$file ?>">
-                    <img style="width: 400px;" src="<?php echo $FOLDER.$file ?>">
+                    <img style="width: 300px" src="<?php echo $FOLDER.$file ?>">
                 </a>
             </div>
         <?php   }  ?>

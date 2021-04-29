@@ -1,6 +1,7 @@
 <header>
-		<nav class="navbar navbar-expand-lg bg-light navbar-light">
- 			<button class="navbar-toggler" type="button" data-toggle="collapse" datatarget="#collapsibleNavbar">
+		<nav class="navbar navbar-expand-lg bg-light navbar-light" >
+			<a class="navbar-brand" href="?oldal=/"><img src="./images/<?= $header['imagesource']?>" alt="<?= $header['imagealt']?>"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
  				<span class="navbar-toggler-icon"></span>
  			</button>
 			<div class="collapse navbar-collapse" id="collapsibleNavbar">
