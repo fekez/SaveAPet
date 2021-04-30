@@ -16,7 +16,7 @@
  	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="scripts/check.js"></script>
 </head>
-<body>
+<body style="background-color:#f8f9fa;">
   <div class="container">
 	<?php if(file_exists('./templates/pages/header.php')) { include('./templates/pages/header.php'); } ?>
     <?php include("./templates/pages/{$find['file']}.tpl.php"); ?>

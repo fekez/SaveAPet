@@ -23,7 +23,11 @@
         </div>
     <?php } ?>
 </div>
-            <p style="padding:20px;"> </p>
+<div class="row">
+    <div class="col-lg-12">
+        <p style="padding:20px 0px 20px 20px;">Visit the original page: <a href="https://www.saveapet.com/" target="_blank">SaveAPet.com</a></p>
+    </div>
+</div>
 <div class="row justify-content-center" >
     <div class="col-lg-6 ">
         <iframe height="290" src="https://www.youtube.com/embed/9OjlvOKQPd4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
